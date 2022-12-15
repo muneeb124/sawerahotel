@@ -1,0 +1,37 @@
+.container{
+    display: grid;
+    grid-template-columns: 200px 300px 70fr;
+    grid-template-rows: 100px 200px 100px;
+    row-gap: 10px;
+    column-gap: 20px;
+    border: 3px solid red;
+    
+}
+
+
+.box{
+    background-color: rgb(163, 106, 106);
+}
+
+.box-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+   
+}
+    
+
+.box-2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start:2;
+    background: url(1.jpg);
+    background-size: cover;
+}
+.box-6{
+    background: url(3.avif);
+    background-size: cover;
+}
+.box-3{
+    background: url(2.avif);
+}
